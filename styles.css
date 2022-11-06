@@ -30,3 +30,39 @@ body {
   border-right: solid;
   border-color: rgba(0, 22, 22, 0.4);
 }
+
+header {
+  color: black;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 10px;
+  font-weight: thin;
+}
+nav ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+nav li {
+  color: black;
+  list-style: none;
+  border-top: 1px solid;
+  position: relative;
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1.2rem;
+  display: block;
+}
+#main-doc {
+  position: absolute;
+  left: 310px;
+  padding: 20px;
+  margin-bottom: 0;
+}
